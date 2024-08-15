@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    height: 100%;
+    margin: 0% 10% 0% 10%;
+    padding: 20px 20px 0px 20px;
+    background-color: rgb(237, 237, 237);
+    font-family: Montserrat;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-left: 10px;
+}
+
+.hero{
+    background-color: #101010;
+    color: #FFFFFF;
+    padding: 5% 0% 5% 15%;
+    background-image: url(./images/iphnehero.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+    font-size: 30px;
+}
+
+.text{
+    margin-top: 5%;
+}
+
+.cases{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cases p{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.cases--card{
+    background-color: #FFFFFF;
+    padding: 2% 5% 5% 5%;
+    border-radius: 30px;
+}
+
+/* .earphones{
+
+} */
+
+.ephone--card--flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ephone--card{
+    background-color: #FFFFFF;
+    padding: 3%;
+    border-radius: 30px;
+    margin-top: 2%;
+}
+
+.ephone--card--price{
+    color: #FFA542;
+}
+
+.ephone--card--name .ephone--card--price p:nth-child(2){
+    font-size: 10px;
+    margin-left: 10px;
+}
+.ephone--card--name p:nth-child(2){
+    padding-bottom: 10px;
+}
+
+.ephone--card--name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ephone--card--price:nth-child(1){
+    color: #DF6464;
+}
+
+.airpods{
+    display: flex;
+    justify-content: space-around;
+    margin: 5%;
+}
+
+.airpods--card{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    padding: 3%;
+}
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p:nth-child(2){
+    color: #FFA542;
+}
+
+.footer{
+    background-color: #FFFFFF;
+    margin: 5%;
+    width: 90%;
+    height: 15vh;
+    border-radius: 30px 30px 0px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.footer--leng{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer--leng p{
+    display: flex;
+}
+
+.footer--social{
+    font-size: 30px;
+}
